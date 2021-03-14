@@ -266,12 +266,12 @@
   }
 
   .experience h2 {
-    font-size: 14px;
-    font-weight: 600;
+    /* font-size: 14px;
+    font-weight: 600; */
   }
 
   .main_aim h2 {
-    /* font-size: 15px; */
+    font-size: 15px;
   }
 
   .education h2 {
