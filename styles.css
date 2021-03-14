@@ -1,0 +1,224 @@
+.header {
+  width: 100%;
+  height: 15px;
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+}
+
+.section_0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+.picture {
+  background-image: url(img/me.jpg);
+  background-size: contain;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin-right: 25px;
+}
+
+.information {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main_aim {
+  margin-bottom: 25px;
+}
+.about_myself {
+  margin-bottom: 25px;
+}
+.education {
+  margin-bottom: 25px;
+}
+.languages {
+  margin-bottom: 25px;
+}
+.skills {
+  margin-bottom: 25px;
+}
+.courses {
+  margin-bottom: 25px;
+}
+.experience {
+  margin-bottom: 25px;
+}
+.projects {
+  margin-bottom: 25px;
+}
+
+
+.about_myself h2::before {
+  content: ' ';
+  background-image: url(img/person-lines-fill.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.education h2::before {
+  content: ' ';
+  background-image: url(img/briefcase-fill.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.main_aim h2::before {
+  content: ' ';
+  background-image: url(img/bullseye.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.languages h2::before {
+  content: ' ';
+  background-image: url(img/globe.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.skills h2::before {
+  content: ' ';
+  background-image: url(img/keyboard.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.courses h2::before {
+  content: ' ';
+  background-image: url(img/wallet-fill.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.experience h2::before {
+  content: ' ';
+  background-image: url(img/server.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.projects h2::before {
+  content: ' ';
+  background-image: url(img/file-earmark-easel.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.contacts {
+  padding: 20px;
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contacts p::before {
+  content: ' ';
+  background-image: url(img/telephone.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.email {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.email::before {
+  content: ' ';
+  background-image: url(img/mailbox.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.telegram {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.telegram::before {
+  content: ' ';
+  background-image: url(img/telegram.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.instagram {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.instagram::before {
+  content: ' ';
+  background-image: url(img/instagram.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-flex;
+  vertical-align: middle;
+}
