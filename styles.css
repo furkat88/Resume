@@ -169,6 +169,12 @@
   vertical-align: middle;
 }
 
+.telephone {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
 .email {
   text-decoration: none;
   color: white;
