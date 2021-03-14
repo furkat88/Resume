@@ -51,6 +51,17 @@
   margin-bottom: 25px;
 }
 
+.main_aim h2::before {
+  content: ' ';
+  background-image: url(img/bullseye.svg);
+  background-size: contain;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  display: inline-flex;
+  vertical-align: middle;
+}
 
 .about_myself h2::before {
   content: ' ';
@@ -67,18 +78,6 @@
 .education h2::before {
   content: ' ';
   background-image: url(img/briefcase-fill.svg);
-  background-size: contain;
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  margin-right: 15px;
-  display: inline-flex;
-  vertical-align: middle;
-}
-
-.main_aim h2::before {
-  content: ' ';
-  background-image: url(img/bullseye.svg);
   background-size: contain;
   display: inline-block;
   width: 40px;
@@ -229,3 +228,8 @@
   vertical-align: middle;
 }
 
+@media (max-width: 425px) {
+  .projects h2 {
+    font-size: 19px;
+  }
+}
