@@ -232,4 +232,9 @@
   .projects h2 {
     font-size: 19px;
   }
+
+  .experience h2 {
+    font-size: 15px;
+    font-weight: 700;
+  }
 }
