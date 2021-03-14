@@ -28,27 +28,59 @@
 
 .main_aim {
   margin-bottom: 25px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 15px;
+  padding: 5px;
 }
 .about_myself {
   margin-bottom: 25px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 15px;
+  padding: 5px;
 }
 .education {
   margin-bottom: 25px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 15px;
+  padding: 5px;
 }
 .languages {
   margin-bottom: 25px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 15px;
+  padding: 5px;
 }
 .skills {
   margin-bottom: 25px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 15px;
+  padding: 5px;
 }
 .courses {
   margin-bottom: 25px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 15px;
+  padding: 5px;
 }
 .experience {
   margin-bottom: 25px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 15px;
+  padding: 5px;
 }
 .projects {
   margin-bottom: 25px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 15px;
+  padding: 5px;
 }
 
 .main_aim h2::before {
