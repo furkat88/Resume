@@ -156,7 +156,7 @@
   justify-content: space-around;
 }
 
-.contacts p::before {
+.telephone::before {
   content: ' ';
   background-image: url(img/telephone.svg);
   background-size: contain;
@@ -235,6 +235,6 @@
 
   .experience h2 {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
   }
 }
