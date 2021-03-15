@@ -298,8 +298,33 @@
   .contacts {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
-    /* align-items: center; */
     justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main_aim {
+    width: 350px;
+  }
+  .about_myself {
+    width: 350px;
+  }
+  .education {
+    width: 350px;
+  }
+  .languages {
+    width: 350px;
+  }
+  .skills {
+    width: 350px;
+  }
+  .courses {
+    width: 350px;
+  }
+  .experience {
+    width: 350px;
+  }
+  .projects {
+    width: 350px;
   }
 }
