@@ -10,6 +10,7 @@
   align-items: center;
   margin-top: 25px;
   margin-bottom: 45px;
+  position: relative;
 }
 
 .picture {
@@ -19,6 +20,18 @@
   width: 150px;
   height: 150px;
   margin-right: 25px;
+}
+
+#change_lang {
+  display: block;
+  position: absolute;
+  right: 50px;
+  border-radius: 5px;
+  border: 2px solid #5A98F2;
+}
+
+#change_lang:focus {
+  outline: unset;
 }
 
 .information {
@@ -262,6 +275,10 @@
 }
 
 @media (max-width: 425px) {
+  #change_lang {
+    right: 15px;
+    top: 0;
+  }
   .main_aim {
     width: 400px;
   }
