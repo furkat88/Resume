@@ -12,8 +12,8 @@ const langArray = {
     "en": "Web Developer"
   }
 }
-const ruLang = document.querySelector('change_lang')
-const enLang = document.querySelector('change_lang2')
+const ruLang = document.querySelector('#change_lang')
+const enLang = document.querySelector('#change_lang2')
 
 ruLang.addEventListener('click', clickURLLanguage);
 
