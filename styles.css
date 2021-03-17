@@ -25,9 +25,30 @@
 #change_lang {
   display: block;
   position: absolute;
+  right: 100px;
+  border-radius: 5px;
+  border: none;
+  background-image: url(img/icons8-russian-federation-64.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  width: 45px;
+  height: 35px;
+}
+#change_lang2 {
+  display: block;
+  position: absolute;
   right: 50px;
   border-radius: 5px;
-  border: 2px solid #5A98F2;
+  border: none;
+  background-image: url(img/icons8-usa-64.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  width: 45px;
+  height: 35px;
 }
 
 #change_lang:focus {
@@ -276,7 +297,11 @@
 
 @media (max-width: 425px) {
   #change_lang {
-    right: 15px;
+    right: 5px;
+    top: 0;
+  }
+  #change_lang2 {
+    left: 5px;
     top: 0;
   }
   .main_aim {
