@@ -3,24 +3,38 @@ const langArray = {
     "ru": "Сатторов Фуркат",
     "en": "Sattorov Furkat"
   },
-  "main_aim_h2":{
+  "aim_h2":{
     "ru": "ЖЕЛАЕМАЯ ДОЛЖНОСТЬ",
     "en": "CAREER POSITION"
   },
-  "main_aim_p":{
+  "aim_p":{
     "ru": "Веб-разработчик",
     "en": "Web Developer"
   }
 }
-const ruLang = document.querySelector('#change_lang')
-const enLang = document.querySelector('#change_lang2')
+const changeLang = document.querySelector('select')
+const allLang = ["ru", "en"]
 
-ruLang.addEventListener('click', clickURLLanguage);
+changeLang.addEventListener('change', clickURLLanguage);
 
 // переноправить на URL с указанием языка 
 function clickURLLanguage() {
-  let lang = ruLang.value;
-  location.href = window.location.pathname + '#'+lang;
-  
+  let lang = changeLang.value;
+  location.href = window.location.pathname + '#' + lang
+  location.reload()
 }
-console.log(lang);
+
+function changeLanguage() {
+  let hash = window.location.hash
+  hash = hash.substr(1)
+  console.log(hash);
+  if (!allLang.includes(hash)){
+    location.href = window.location.pathname + '#ru'
+    location.reload()
+  }
+  changeLang.value = hash
+  for (let key in langArray){
+    document.querySelector('#lang-'+key).innerHTML = langArray[key][hash]
+  }
+}
+changeLanguage()
