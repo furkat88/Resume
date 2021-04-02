@@ -20,6 +20,7 @@
   width: 150px;
   height: 150px;
   margin-right: 25px;
+  -moz-background-image: url(img/me.jpg);
 }
 
 #change_language {
